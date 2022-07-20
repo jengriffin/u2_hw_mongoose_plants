@@ -10,4 +10,8 @@ router.get('/plants/:id', controllers.getPlantId)
 
 router.post('/plants', controllers.createPlant)
 
+router.put('/plants/:id', controllers.updatePlant)
+
+router.delete('/plants/:id', controllers.deletePlant)
+
 module.exports = router
